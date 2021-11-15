@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Touslist tour</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Custom Sytlesheet -->
+    <link rel="stylesheet" href="tours-list.css">
+
+    <!-- FontAwesome 5.15.3 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- (Optional) Use CSS or JS implementation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
+        integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="container-fluid navbar navbar-expand-xxl navbar-light bg-*">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <a class="navbar-brand text-center" href="#"><img src="img/img-1/logo1.jpg" alt="" width="90"
+                    height="90"></a>
+            <button class="btn btn-outline-success text-dark p-lg-2" type="submit"><i class="fas fa-phone-alt"></i>GET
+                INTOUCH</button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item px-3">
+                        <a class="nav-link" aria-current="page" href="home.html"></a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" aria-current="page" href="destination.html">Destination</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="private-tour.html">Private Tour</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="single-tour.html">Single Tour</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link active" href="tours-list.html">Tours List</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- image container -->
+    <div class="container-fluid header-img py-5" id="header-img">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12 text-start">
+                    <h5 class="fw-bolder h-text">DISCOVER A HIDDEN PARADISE</h5>
+                    <h2 class="fw-bolder h-text">Our Travels</h2>
+                    <a href="#" class="btn btn-info  px-4 my-3 text-light">BOOK NOW</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- our tours -->
+    <div class="container tours text-center py-5">
+        <h2>Our Tours</h2>
+        <p class="fw-bolder my-3">Discover with EcoTour Barahona,your specialist in Ecotourism a new face of the
+            Dominican Republic,more human more authentic!</p>
+        <p class="text-secondary">WE have artistically designed unqiue excursions for you,accompanied by professional
+            and passionate local
+            guides who show you the best of this part of country.</p>
+    </div>
+    <!-- trips -->
+    <div class="container-fluid py-5 trips">
+        <div class="container">
+            <div class="row fw-bolder">
+                <div class="col-12 col-lg-3 py-3">
+                    <div class="trips-box">
+                        <img src="img/img-4/trips1.jpg" alt="" class="img-fluid">
+                        <h4 class="pt-3">ALL CATAGORIES</h4>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 py-3">
+                    <div class="trips-box">
+                        <img src="img/img-4/trips2.jpg" alt="" class="img-fluid">
+                        <h4 class="pt-3">DAY TRIPS</h4>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 py-3">
+                    <div class="trips-box">
+                        <img src="img/img-4/trips3.jpg" alt="" class="img-fluid">
+                        <h4 class="pt-3">MULTI DAY TRIPS</h4>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3 py-3">
+                    <div class="trips-box">
+                        <img src="img/img-4/trips4.jpg" alt="" class="img-fluid">
+                        <h4 class="pt-3">PRIVATE TOURS</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!--  card1 -->
+            <div class="pt-3">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="img/img-4/card1.jpeg" class="img-fluid" alt="" style=" height: 390px;">
+                            <div class="collapse" id="garden">
+                                <div class="row p-3">
+                                    <div class="row pt-3">
+                                        <div class="col-9 text-start">
+                                            <h6>ROUTE: Barahona-paraiso</h6>
+                                        </div>
+                                        <div class="col-3">
+                                            <i class="fas fa-map-marker-alt"></i> map
+                                        </div>
+                                    </div>
+                                    <div class="row pt-3 text-start">
+                                        <div class="col py-2">
+                                            <h6><i class="fas fa-mountain"></i> Horseback riding/ Duration 3-4hours</h6>
+                                            <hr>
+                                            <h6><i class="fas fa-map-marker-alt"></i> Departing from: Barahona</h6>
+                                            <hr>
+                                            <h6><i class="fas fa-camera"></i> panoramic view over the caribbean sea</h6>
+                                            <hr>
+                                            <h6><i class="fas fa-water"></i> Ride through a river</h6>
+                                            <hr>
+                                            <h6><i class="far fa-flag"></i> Stop at the paprika greenhouse</h6>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-7  align-items-center">
+                            <div class="card-con p-3">
+                                <div class="row py-2">
+
+                                    <div class="col-12 col-lg-8 text-start">
+                                        <h3 class="fw-bold fs-2">Garden of Eden</h3>
+                                        <h6>Multi-Day trip</h6>
+                                        <h6 class="text-secondary">Departing from Chennai</h6>
+                                        <h6 class="text-secondary"><i class="far fa-clock"></i> 8 to 9 Hours</h6>
+                                    </div>
+                                    <div class="col-12 col-lg-4 text-end">
+                                        <button class="btn btn-danger btn-lg my-1">$1699</button>
+
+                                        <h5 class="pt-2">Per adult</h5>
+                                        <h6 class="text-secondary">Transpotation included</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 text-start">
+                                    <div class="px-5 card__content">
+                                        <p class="px-lg-5"><strong>Our hike starts in the village of Ojeda
+                                                on the south coast of Barahona,</strong><br>At this farm, all you have
+                                            to do is reach out your hand to pick and enjoy avocados, oranges, lemons,
+                                            mangoes, papayas, sapotes, guavas, passion fruits and many other types of
+                                            fruit.
+                                            <a class="" data-bs-toggle="collapse" href="#garden" role="button"
+                                                aria-expanded="false" aria-controls="collapseExample">
+                                                +info
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="collapse" id="garden">
+                                    <div class="row  text-start px-4">
+                                        <p class="pt-5 pt-sm-3">Our hike starts in the village of Ojeda on the south
+                                            coast of
+                                            Barahona, on a
+                                            large farm.At this farm, all you have to do is reach out your hand to pick
+                                            and enjoy
+                                            avocados, oranges, lemons, mangoes, papayas, sapotes, guavas, passion fruits
+                                            and many other types of fruit.
+                                        </p>
+                                        <p>After a two hour hike uphill we stop at a mirador (lookout point) with a
+                                            breathtaking panoramic view over the villages of Los Patos, Ojeda and
+                                            Paraíso, the river Riosito and the high mountains of Cachote. Continue
+                                            uphill to the village of Bario Nuevo, founded by a Haitian family who
+                                            produce coffee in the middle of the cloud forest.
+                                        </p>
+                                        <p>In the afternoon (after lunch) we cross several coffee plantations on the
+                                            mountain top before we climb all the way down to the gorge of the Riosito
+                                            river. Where the path meets the river, you can take a dip in a royal natural
+                                            pool. The site is also a popular playground for local children. Finally we
+                                            follow the river downhill to Paraíso village.</p>
+                                    </div>
+                                    <button class="btn btn-danger btn-lg my-3 b"><a class="text-light"
+                                            style="text-decoration: none;" href="#">BOOK
+                                            NOW</a></button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-lg-6">
+                                    <img src="img/img-4/1bc50a8d9c15.png" alt="" style="width: 50px;">
+                                    <span class="text-danger">
+                                        <i class="fas fa-dot-circle"></i>
+                                        <i class="fas fa-dot-circle"></i>
+                                        <i class="fas fa-dot-circle"></i>
+                                        <i class="fas fa-dot-circle"></i>
+                                        <i class="far fa-circle"></i>
+                                        <span class="text-secondary">2345 opinions</span>
+                                    </span>
+                                </div>
+                                <div class="col-12 col-lg-6 py-2">
+                                    <div class="row">
+                                        <div class="col">
+                                            <i class="fas fa-file-alt text-danger"></i>
+                                            <span class="text-secondary ms-1">Info</span>
+                                        </div>
+                                        <div class="col">
+                                            <i class="fas fa-images text-danger"></i>
+                                            <span class="text-secondary ms-1">Photos</span>
+                                        </div>
+                                        <div class="col">
+                                            <i class="fas fa-map-marked-alt text-danger"></i>
+                                            <span class="text-secondary ms-1">Map</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--card2 -->
+                <div class="pt-3">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <img src="img/img-4/card2.jpg" class="img-fluid" alt="" style=" height: 390px;">
+                                <div class="collapse" id="blue">
+                                    <div class="row p-3">
+                                        <div class="row pt-3">
+                                            <div class="col-9 text-start">
+                                                <h6>ROUTE: Barahona-paraiso</h6>
+                                            </div>
+                                            <div class="col-3">
+                                                <i class="fas fa-map-marker-alt"></i> map
+                                            </div>
+                                        </div>
+                                        <div class="row pt-3 text-start">
+                                            <div class="col py-2">
+                                                <h6><i class="fas fa-mountain"></i> Horseback riding/ Duration 3-4hours
+                                                </h6>
+                                                <hr>
+                                                <h6><i class="fas fa-map-marker-alt"></i> Departing from: Barahona</h6>
+                                                <hr>
+                                                <h6><i class="fas fa-camera"></i> panoramic view over the caribbean sea
+                                                </h6>
+                                                <hr>
+                                                <h6><i class="fas fa-water"></i> Ride through a river</h6>
+                                                <hr>
+                                                <h6><i class="far fa-flag"></i> Stop at the paprika greenhouse</h6>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-7  align-items-center">
+                                <div class="card-con p-3">
+                                    <div class="row py-2">
+
+                                        <div class="col-12 col-lg-8 text-start">
+                                            <h3 class="fw-bold fs-2">Blue Jewel Mine </h3>
+                                            <h6>Multi-Day trip</h6>
+                                            <h6 class="text-secondary">Departing from Chennai</h6>
+                                            <h6 class="text-secondary"><i class="far fa-clock"></i> 8 to 9 Hours</h6>
+                                        </div>
+                                        <div class="col-12 col-lg-4 text-end">
+                                            <button class="btn btn-danger btn-lg my-1">$1699</button>
+
+                                            <h5 class="pt-2">Per adult</h5>
+                                            <h6 class="text-secondary">Transpotation included</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 text-start">
+                                        <div class="px-5 card__content">
+                                            <p class="px-lg-5"> <strong>stone is scratch-resistant, can be polished well
+                                                    and is used
+                                                    in various pieces of jewelry.</strong>Once at the mine, you will
+                                                receive a tour
+                                                of the mining village. We do not recommend entrance to the tunnels and
+                                                any visit is at the client's own risk.
+                                                <a class="" data-bs-toggle="collapse" href="#blue" role="button"
+                                                    aria-expanded="false" aria-controls="collapseExample">
+                                                    +info
+                                                </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="collapse" id="blue">
+                                        <div class="row  text-start px-4">
+                                            <p class="pt-5 pt-sm-3">After the tour, you will visit a local Larimar
+                                                workshop,
+                                                like several others in the area where the locals process Larimar in
+                                                their own backyard. You may also purchase a particularly beautiful piece
+                                                from one of the many dealers in the mine beforehand - but please consult
+                                                your guide for such a purchase.
+                                            </p>
+                                            <p>Subsequently we will visit Villa Miriam, a natural place located directly
+                                                on the San Rafael River and has natural pools and waterfalls. The
+                                                refreshing river courses invite you to swim. If you wish, you can have
+                                                lunch here. The costs will have to be covered by the client. After that,
+                                                you will be taken back to your hotel.
+                                            </p>
+                                            <p>In the afternoon (after lunch) we cross several coffee plantations on the
+                                                mountain top before we climb all the way down to the gorge of the
+                                                Riosito
+                                                river. Where the path meets the river, you can take a dip in a royal
+                                                natural
+                                                pool. The site is also a popular playground for local children. Finally
+                                                we
+                                                follow the river downhill to Paraíso village.</p>
+                                        </div>
+                                        <button class="btn btn-danger btn-lg my-3 b"><a class="text-light"
+                                                style="text-decoration: none;" href="#">BOOK
+                                                NOW</a></button>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-lg-6">
+                                        <img src="img/img-4/1bc50a8d9c15.png" alt="" style="width: 50px;">
+                                        <span class="text-danger">
+                                            <i class="fas fa-dot-circle"></i>
+                                            <i class="fas fa-dot-circle"></i>
+                                            <i class="fas fa-dot-circle"></i>
+                                            <i class="fas fa-dot-circle"></i>
+                                            <i class="far fa-circle"></i>
+                                            <span class="text-secondary">2345 opinions</span>
+                                        </span>
+                                    </div>
+                                    <div class="col-12 col-lg-6 py-2">
+                                        <div class="row">
+                                            <div class="col">
+                                                <i class="fas fa-file-alt text-danger"></i>
+                                                <span class="text-secondary ms-1">Info</span>
+                                            </div>
+                                            <div class="col">
+                                                <i class="fas fa-images text-danger"></i>
+                                                <span class="text-secondary ms-1">Photos</span>
+                                            </div>
+                                            <div class="col">
+                                                <i class="fas fa-map-marked-alt text-danger"></i>
+                                                <span class="text-secondary ms-1">Map</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- card3 -->
+                    <div class="pt-3">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <img src="img/img-4/card3.jpg" class="img-fluid" alt="" style=" height: 390px;">
+                                    <div class="collapse" id="paradise">
+                                        <div class="row p-3">
+                                            <div class="row pt-3">
+                                                <div class="col-9 text-start">
+                                                    <h6>ROUTE: Barahona-paraiso</h6>
+                                                </div>
+                                                <div class="col-3">
+                                                    <i class="fas fa-map-marker-alt"></i> map
+                                                </div>
+                                            </div>
+                                            <div class="row pt-3 text-start">
+                                                <div class="col py-2">
+                                                    <h6><i class="fas fa-mountain"></i> Horseback riding/ Duration
+                                                        3-4hours</h6>
+                                                    <hr>
+                                                    <h6><i class="fas fa-map-marker-alt"></i> Departing from: Barahona
+                                                    </h6>
+                                                    <hr>
+                                                    <h6><i class="fas fa-camera"></i> panoramic view over the caribbean
+                                                        sea</h6>
+                                                    <hr>
+                                                    <h6><i class="fas fa-water"></i> Ride through a river</h6>
+                                                    <hr>
+                                                    <h6><i class="far fa-flag"></i> Stop at the paprika greenhouse</h6>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-7  align-items-center">
+                                    <div class="card-con p-3">
+                                        <div class="row py-2">
+
+                                            <div class="col-12 col-lg-8 text-start">
+                                                <h3 class="fw-bold fs-2">Untouched Paradise</h3>
+                                                <h6>Multi-Day trip</h6>
+                                                <h6 class="text-secondary">Departing from Chennai</h6>
+                                                <h6 class="text-secondary"><i class="far fa-clock"></i> 8 to 9 Hours
+                                                </h6>
+                                            </div>
+                                            <div class="col-12 col-lg-4 text-end">
+                                                <button class="btn btn-danger btn-lg my-1">$1699</button>
+
+                                                <h5 class="pt-2">Per adult</h5>
+                                                <h6 class="text-secondary">Transpotation included</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 text-start">
+                                            <div class="px-5 card__content">
+                                                <p class="px-lg-5"><strong>The very first day in Andaman when I reached
+                                                        the
+                                                        airport
+                                                        at Port Blair from there I was taken to my hotel and after I got
+                                                        freshen</strong> up I took a tour around the city(Port Blair)
+                                                    and visited the
+                                                    Carbyns Cove Beach and came through few aquatic animals and
+                                                    beautiful corals in a museum.
+                                                    <a class="" data-bs-toggle="collapse" href="#paradise" role="button"
+                                                        aria-expanded="false" aria-controls="collapseExample">
+                                                        +info
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="collapse" id="paradise">
+                                            <div class="row  text-start px-4">
+                                                <p class="pt-5 pt-sm-3">The next day I had to transfer from Port Blair
+                                                    to
+                                                    Havelock Island at 6:00 a.m in the morning. The transfer was through
+                                                    a ship which took almost 1 and a half hour and finally reached the
+                                                    dock. Then after having my breakfast I was taken to the Radhanagar
+                                                    Beach where I spent almost 4 to 5 hours and then head back to my
+                                                    hotel.
+                                                </p>
+                                                <p>As it was raining very heavily, I still managed to take few photos of
+                                                    the places I visited. At first after getting down from the ship I
+                                                    was directly taken to the Natural Coral Beach where you can see dead
+                                                    corals and a huge amount of aquatic life. Some of which I noticed
+                                                    was a sea cucumber, an eel, snakes and many more.. It's almost a 45
+                                                    minutes walk on the corals so watch your steps.
+                                                </p>
+                                                <p>
+                                                    The next day at around 3 a.m in the morning I had to wake up as my
+                                                    trip to the Baratang Caves would Start. It takes around 2 hours to
+                                                    reach the checkpost where the vehicles are only allowed after 6 a.m
+                                                    to see the jarwa tribe. The Jarwa tribe is the oldest tribe residing
+                                                    in the Andaman and Nicobar Islands. We had to cross a 45 km road
+                                                    through the forest which is also a little bit steep and narrow.
+                                                </p>
+                                            </div>
+                                            <button class="btn btn-danger btn-lg my-3"><a class="text-light"
+                                                    style="text-decoration: none;" href="#">BOOK
+                                                    NOW</a></button>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 col-lg-6">
+                                            <img src="img/img-4/1bc50a8d9c15.png" alt="" style="width: 50px;">
+                                            <span class="text-danger">
+                                                <i class="fas fa-dot-circle"></i>
+                                                <i class="fas fa-dot-circle"></i>
+                                                <i class="fas fa-dot-circle"></i>
+                                                <i class="fas fa-dot-circle"></i>
+                                                <i class="far fa-circle"></i>
+                                                <span class="text-secondary">2345 opinions</span>
+                                            </span>
+                                        </div>
+                                        <div class="col-12 col-lg-6 py-2">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <i class="fas fa-file-alt text-danger"></i>
+                                                    <span class="text-secondary ms-1">Info</span>
+                                                </div>
+                                                <div class="col">
+                                                    <i class="fas fa-images text-danger"></i>
+                                                    <span class="text-secondary ms-1">Photos</span>
+                                                </div>
+                                                <div class="col">
+                                                    <i class="fas fa-map-marked-alt text-danger"></i>
+                                                    <span class="text-secondary ms-1">Map</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card4 -->
+
+                        <div class="pt-3">
+                            <div class="card">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <img src="img/img-4/card4.jpg" class="img-fluid" alt="" style=" height: 390px;">
+                                        <div class="collapse" id="mountain">
+                                            <div class="row p-3">
+                                                <div class="row pt-3">
+                                                    <div class="col-9 text-start">
+                                                        <h6>ROUTE: Barahona-paraiso</h6>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <i class="fas fa-map-marker-alt"></i> map
+                                                    </div>
+                                                </div>
+                                                <div class="row pt-3 text-start">
+                                                    <div class="col py-2">
+                                                        <h6><i class="fas fa-mountain"></i> Horseback riding/ Duration
+                                                            3-4hours</h6>
+                                                        <hr>
+                                                        <h6><i class="fas fa-map-marker-alt"></i> Departing from:
+                                                            Barahona
+                                                        </h6>
+                                                        <hr>
+                                                        <h6><i class="fas fa-camera"></i> panoramic view over the
+                                                            caribbean
+                                                            sea</h6>
+                                                        <hr>
+                                                        <h6><i class="fas fa-water"></i> Ride through a river</h6>
+                                                        <hr>
+                                                        <h6><i class="far fa-flag"></i> Stop at the paprika greenhouse
+                                                        </h6>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7  align-items-center">
+                                        <div class="card-con p-3">
+                                            <div class="row py-2">
+
+                                                <div class="col-12 col-lg-8 text-start">
+                                                    <h3 class="fw-bold fs-2">Colud Forest Mountain</h3>
+                                                    <h6>Multi-Day trip</h6>
+                                                    <h6 class="text-secondary">Departing from Chennai</h6>
+                                                    <h6 class="text-secondary"><i class="far fa-clock"></i> 8 to 9 Hours
+                                                    </h6>
+                                                </div>
+                                                <div class="col-12 col-lg-4 text-end">
+                                                    <button class="btn btn-danger btn-lg my-1">$1699</button>
+
+                                                    <h5 class="pt-2">Per adult</h5>
+                                                    <h6 class="text-secondary">Transpotation included</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 text-start">
+                                                <div class="px-5 card__content">
+                                                    <p class="px-lg-5"><strong>On their land you can find coffee, cacao
+                                                            and
+                                                            bananas, among others.</strong>You will learn more about the
+                                                        cultivation
+                                                        and processing of these products and have the opportunity to
+                                                        taste them. Afterwards, the route continues to Cachote.
+                                                        <a class="" data-bs-toggle="collapse" href="#mountain"
+                                                            role="button" aria-expanded="false"
+                                                            aria-controls="collapseExample">
+                                                            +info
+                                                        </a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="collapse" id="mountain">
+                                                <div class="row  text-start px-4">
+                                                    <p class="pt-5 pt-sm-3">As the altitude increases, it becomes more
+                                                        and more
+                                                        foggy and the temperature drops. Upon arrival in Cachote, you
+                                                        will take a 30 to 45 minute walk in the forest. Afterwards, you
+                                                        will have the opportunity to have a picnic at a local resident's
+                                                        home.
+                                                    </p>
+                                                    <p>Since there is only one elementary school in Cachote, many
+                                                        residents have left the village with their older children to
+                                                        seek prosperity in more civilized villages. If weather
+                                                        conditions are favorable
+                                                    </p>
+                                                    <p>take a different route on the way back, crossing the "Nizaito"
+                                                        river. If the water level is too high to cross the river, we
+                                                        will take the same route as above to return to the hotel.
+                                                    </p>
+                                                </div>
+                                                <button class="btn btn-danger btn-lg my-3 b"><a class="text-light"
+                                                        style="text-decoration: none;" href="#">BOOK
+                                                        NOW</a></button>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 col-lg-6">
+                                                <img src="img/img-4/1bc50a8d9c15.png" alt="" style="width: 50px;">
+                                                <span class="text-danger">
+                                                    <i class="fas fa-dot-circle"></i>
+                                                    <i class="fas fa-dot-circle"></i>
+                                                    <i class="fas fa-dot-circle"></i>
+                                                    <i class="fas fa-dot-circle"></i>
+                                                    <i class="far fa-circle"></i>
+                                                    <span class="text-secondary">2345 opinions</span>
+                                                </span>
+                                            </div>
+                                            <div class="col-12 col-lg-6 py-2">
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <i class="fas fa-file-alt text-danger"></i>
+                                                        <span class="text-secondary ms-1">Info</span>
+                                                    </div>
+                                                    <div class="col">
+                                                        <i class="fas fa-images text-danger"></i>
+                                                        <span class="text-secondary ms-1">Photos</span>
+                                                    </div>
+                                                    <div class="col">
+                                                        <i class="fas fa-map-marked-alt text-danger"></i>
+                                                        <span class="text-secondary ms-1">Map</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- card5 -->
+                            <div class="pt-3">
+                                <div class="card">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <img src="img/img-4/card5.jfif" class="img-fluid" alt=""
+                                                style=" height: 390px;">
+                                            <div class="collapse" id="flamingo">
+                                                <div class="row p-3">
+                                                    <div class="row pt-3">
+                                                        <div class="col-9 text-start">
+                                                            <h6>ROUTE: Barahona-paraiso</h6>
+                                                        </div>
+                                                        <div class="col-3">
+                                                            <i class="fas fa-map-marker-alt"></i> map
+                                                        </div>
+                                                    </div>
+                                                    <div class="row pt-3 text-start">
+                                                        <div class="col py-2">
+                                                            <h6><i class="fas fa-mountain"></i> Horseback riding/
+                                                                Duration
+                                                                3-4hours</h6>
+                                                            <hr>
+                                                            <h6><i class="fas fa-map-marker-alt"></i> Departing from:
+                                                                Barahona
+                                                            </h6>
+                                                            <hr>
+                                                            <h6><i class="fas fa-camera"></i> panoramic view over the
+                                                                caribbean
+                                                                sea</h6>
+                                                            <hr>
+                                                            <h6><i class="fas fa-water"></i> Ride through a river</h6>
+                                                            <hr>
+                                                            <h6><i class="far fa-flag"></i> Stop at the paprika
+                                                                greenhouse
+                                                            </h6>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7  align-items-center">
+                                            <div class="card-con p-3">
+                                                <div class="row py-2">
+
+                                                    <div class="col-12 col-lg-8 text-start">
+                                                        <h3 class="fw-bold fs-2">Colud Forest Mountain</h3>
+                                                        <h6>Multi-Day trip</h6>
+                                                        <h6 class="text-secondary">Departing from Chennai</h6>
+                                                        <h6 class="text-secondary"><i class="far fa-clock"></i> 8 to 9
+                                                            Hours
+                                                        </h6>
+                                                    </div>
+                                                    <div class="col-12 col-lg-4 text-end">
+                                                        <button class="btn btn-danger btn-lg my-1">$1699</button>
+
+                                                        <h5 class="pt-2">Per adult</h5>
+                                                        <h6 class="text-secondary">Transpotation included</h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12 text-start">
+                                                    <div class="px-5 card__content">
+                                                        <p class="px-lg-5"><strong>“La Laguna de Oviedo”, a natural salt
+                                                                water
+                                                                reserve, separated from the sea by a narrow strip of
+                                                                land.</strong>
+                                                            After receiving your entrance bracelets to the National Park
+                                                            you will board a typical boat. Once on the boat you will be
+                                                            able to appreciate a series of large birds such as herons,
+                                                            <a class="" data-bs-toggle="collapse" href="#flamingo"
+                                                                role="button" aria-expanded="false"
+                                                                aria-controls="collapseExample">
+                                                                +info
+                                                            </a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="collapse" id="flamingo">
+                                                    <div class="row  text-start px-4">
+                                                        <p class="pt-5">Afterwards, you will approach the largest
+                                                            flamingo colony in the Dominican Republic. Enjoy the
+                                                            experience when a whole flamingo swarm passes by. Culminate
+                                                            the visit with a mud bath in a specific point of the lagoon,
+                                                            with a material to which therapeutic and cosmetic conditions
+                                                            are attributed
+                                                        </p>
+                                                        <p>Have fun being a child playing with the mud. The journey
+                                                            leads back to your hotel. On the way back you will find “Los
+                                                            Patos”, a typical Dominican place with refreshing rivers and
+                                                            rocky beaches that invite you to take a swim. If you wish to
+                                                            have lunch here do not hesitate to let your guide know and
+                                                            he will take care of everything.
+                                                        </p>
+                                                        <p>take a different route on the way back, crossing the
+                                                            "Nizaito"
+                                                            river. If the water level is too high to cross the river, we
+                                                            will take the same route as above to return to the hotel.
+                                                        </p>
+                                                    </div>
+                                                    <button class="btn btn-danger btn-lg my-3 b"><a class="text-light"
+                                                            style="text-decoration: none;" href="#">BOOK
+                                                            NOW</a></button>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12 col-lg-6">
+                                                    <img src="img/img-4/1bc50a8d9c15.png" alt="" style="width: 50px;">
+                                                    <span class="text-danger">
+                                                        <i class="fas fa-dot-circle"></i>
+                                                        <i class="fas fa-dot-circle"></i>
+                                                        <i class="fas fa-dot-circle"></i>
+                                                        <i class="fas fa-dot-circle"></i>
+                                                        <i class="far fa-circle"></i>
+                                                        <span class="text-secondary">2345 opinions</span>
+                                                    </span>
+                                                </div>
+                                                <div class="col-12 col-lg-6 py-2">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <i class="fas fa-file-alt text-danger"></i>
+                                                            <span class="text-secondary ms-1">Info</span>
+                                                        </div>
+                                                        <div class="col">
+                                                            <i class="fas fa-images text-danger"></i>
+                                                            <span class="text-secondary ms-1">Photos</span>
+                                                        </div>
+                                                        <div class="col">
+                                                            <i class="fas fa-map-marked-alt text-danger"></i>
+                                                            <span class="text-secondary ms-1">Map</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- travel experience -->
+    <div class="container-fluid bg-light text-center py-5">
+        <div class="container">
+            <h2>Featured Travel Experiences</h2>
+            <div class="row">
+                <div class="col-12 col-md-4 py-5 py-sm-2">
+                    <div class="travel">
+                        <div class="card bg-dark text-white">
+                            <img src="img/img-4/travel1.jpeg" class="card-img" alt="...">
+                            <div class="card-img-overlay d-flex align-items-end">
+                                <h2 class="text-warning fw-bolder ">Garden of Eden</h2>
+                            </div>
+                        </div>
+                        <div class="overlay overlay1">
+                            <div class="content-overlay text-start">
+                                <h2 class="text-warning fw-bolder">Garden of Eden</h2>
+                                <button class="bg-danger text-white px-3 border-0 fs-4">$55</button>
+                                <h6 class="text-warning fw-bolder">price per adult</h6>
+                                <h6 class="text-warning fw-bolder">Departing from: Barahona</h6>
+                                <h6 class="text-warning fw-bolder"><i class="far fa-clock"></i> 5-6
+                                    hours</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 py-5 py-sm-2">
+                    <div class="travel">
+                        <div class="card bg-dark text-white">
+                            <img src="img/img-4/travel2.jpeg" class="card-img" alt="...">
+                            <div class="card-img-overlay d-flex align-items-end">
+                                <h2 class="text-warning fw-bolder text-start">Untouched Paradise</h2>
+                            </div>
+                        </div>
+                        <div class="overlay overlay2">
+                            <div class="content-overlay text-start">
+                                <h2 class="text-warning fw-bolder">Untouched Paradise</h2>
+                                <button class="bg-danger text-white px-3 border-0 fs-4">$99</button>
+                                <h6 class="text-warning fw-bolder">price per adult</h6>
+                                <h6 class="text-warning fw-bolder">Departing from: Barahona</h6>
+                                <h6 class="text-warning fw-bolder"><i class="far fa-clock"></i> 5-6
+                                    hours</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 py-5 py-sm-3">
+                    <div class="travel">
+                        <div class="card bg-dark text-white">
+                            <img src="img/img-4/travel3.jpeg" class="card-img" alt="...">
+                            <div class="card-img-overlay d-flex align-items-end">
+                                <h2 class="text-warning fw-bolder text-start">Cloud Forest Mountain</h2>
+                            </div>
+                        </div>
+                        <div class="overlay overlay3">
+                            <div class="content-overlay text-start">
+                                <h2 class="text-warning fw-bolder">Cloud Forest Mountain</h2>
+                                <button class="bg-danger text-white px-3 border-0 fs-4">$105</button>
+                                <h6 class="text-warning fw-bolder">price per adult</h6>
+                                <h6 class="text-warning fw-bolder">Departing from: Barahona</h6>
+                                <h6 class="text-warning fw-bolder"><i class="far fa-clock"></i> 5-6
+                                    hours</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center py-4">
+                    <button type="button" class="btn btn-danger  fw-bolder"><a href="https://ecotourbarahona.com/en/"
+                            class="text-light" style="text-decoration: none;">LOAD MORE</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container-fluid py-5 footer">
+        <div class="container">
+            <div class="row footer-box">
+                <div class="footer-box__col">
+                    <img src="img/img-1/london.jpg" alt="" width="200" height="150" class="py-2">
+                    <p>Ecotour Barahona is your favourite Speciatist,unique and memorable round trips
+                        activies in Southwest of Dominican Republic. </p>
+                    <h6 class="text-light">Hast it all</h6>
+                    <img src="img/img-1/lo.jpg" alt="" width="200" height="150" class="py-2">
+                    <p>Travel environmentally friendly with us main destination of the Dominican Republic.</p>
+                </div>
+                <div class="footer-box__col">
+                    <h5 class="pt-2 fw-bold"><a href="#">ABOUT US</a></h5>
+                    <ul>
+                        <p>ABOUT ECOTOUR</p>
+                        <p>BARAHONA</p>
+                        <p>OUR TEAM</p>
+                        <p>GUESTBOOK</p>
+                        <p>IMPRINT</p>
+                    </ul>
+                </div>
+                <div class="footer-box__col">
+                    <h5 class="pt-2 fw-bold"><a href="#">CUSTOMER SERVICES</a></h5>
+                    <ul>
+                        <p>BOOKING CONDITIONS</p>
+                        <p>CONTACT-US</p>
+                        <p>FAQ'S</p>
+                        <p>LEGAL NOTICE</p>
+                        <p>PRIVACY POLICY</p>
+                    </ul>
+                </div>
+                <div class="footer-box__col">
+                    <h5 class="pt-2 fw-bold"><a href="#">RESERVATIONS & BOOKINGS</a></h5>
+                    <ul>
+                        <p>MONDAY TO FRIDAY From 8.00am to8.00pm</P>
+                        <p>SATURDAY TO SUNDAY From 9.00am to5.00pm</p>
+                        <p>Atlantic Standed Time +1(809)856 2260</p>
+                    </ul>
+                </div>
+                <div class="footer-box__col">
+                    <h5 class="pt-2 fw-bold"><a href="#">FOLLOW US</a></h5>
+                    <ul>
+                        <i class="fab fa-instagram p-1 fs-2 text-light"></i>
+                        <i class="fab fa-whatsapp p-1 fs-2 text-light"></i>
+                        <i class="fab fa-telegram p-1 fs-2 text-light"></i>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
