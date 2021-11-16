@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    font-family: 'Noto Serif', serif;
+}
+
+/***** header-img *****/
+
+#header-img {
+    background-image: url(img/img-5/bg-img.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 80vh;
+}
+
+.h-text {
+    text-shadow: 2px 2px 3px black;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 40px;
+}
+/***** trips *****/
+.trips {
+    background-color: rgb(236, 228, 228);
+    text-align: center;
+}
+
+.trips-box {
+    background-color: silver;
+    padding: 14px;
+}
+
+.trips-box img {
+    width: 250px;
+    height: 190px;
+}
+
+.trips-box:hover {
+    box-shadow: 2px 2px 5px black;
+    cursor: pointer;
+}
+
+.trips-box h4:hover {
+    color: red;
+}
+
+/***** southwest *****/
+
+.our-tour {
+    background-image: url(img/img-5/south.jpg);
+    background-size: cover;
+    min-height: 80vh;
+    align-items: center;
+}
+
+.our-tour__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 80vh;
+    width: 100%;
+}
+
+.our-tour__desp {
+    background-color: #FFF;
+    width: 50%;
+    border-radius: 10px;
+    z-index: 1;
+    padding: 10px;
+}
+
+.our-tour__vido {
+    width: 50%;
+    height: 400px;
+}
+
+.our-tour__vido iframe {
+    margin-left: -105px;
+    width: 700px;
+    height: 400px;
+}
+
+.our-tour__vido video:hover {
+    box-shadow: 2px 2px 3px black;
+}
+
+.our-tour__desp:hover {
+    box-shadow: 2px 2px 3px black;
+}
+
+.our-tour__card .btn {
+    background-color: rgb(71, 134, 7);
+    border: none;
+}
+
+.our-tour__card .btn a {
+    text-decoration: none;
+}
+
+.travel--1 {
+    background-image: url(img/img-5/img-1.jpeg);
+    background-size: cover;
+    width: 33.333333%;
+    height: 400px;
+    border: 10px solid white;
+    overflow: hidden;
+}
+
+.travel--2 {
+    background-image: url(img/img-5/img-2.jpeg);
+    background-size: cover;
+    width: 33.333333%;
+    height: 400px;
+    border: 10px solid white;
+    overflow: hidden;
+}
+
+.travel--3 {
+    background-image: url(img/img-5/img-3.jpeg);
+    background-size: cover;
+    width: 33.333333%;
+    height: 400px;
+    border: 10px solid white;
+    overflow: hidden;
+}
+
+.travel--4 {
+    background-image: url(img/img-4/travel5.jpeg);
+    background-size: cover;
+    width: 33.333333%;
+    height: 600px;
+    border: 10px solid white;
+    overflow: hidden;
+}
+
+.travel--5 {
+    background-image: url(img/img-4/card5.jfif);
+    background-size: cover;
+    width: 33.333333%;
+    background-position: center center;
+    height: 600px;
+    border: 10px solid white;
+    overflow: hidden;
+}
+
+.travel--6 {
+    background-image: url(img/img-5/img-6.jpeg);
+    background-size: cover;
+    width: 33.333333%;
+    height: 400px;
+    border: 10px solid white;
+    overflow: hidden;
+}
+
+.travel--7 {
+    background-image: url(img/img-5/img-7.jpeg);
+    background-position: center center;
+    background-size: cover;
+    width: 33.333333%;
+    height: 400px;
+    border: 10px solid white;
+    overflow: hidden;
+}
+
+.travel--8 {
+    background-image: url(img/img-5/img-8.jpeg);
+    background-size: cover;
+    width: 33.333333%;
+    height: 400px;
+    border: 10px solid white;
+    overflow: hidden;
+}
+
+.travel--desp {
+    width: 100%;
+    padding: 40% 15px;
+    transition: .5s;
+}
+
+.travel--desp1, .travel--desp2, .travel--desp3, .travel--desp6, .travel--desp7, .travel--desp8 {
+    margin-top: 55%;
+}
+
+.desp-45 {
+    padding-top: 80%;
+}
+
+.travel--desp4, .travel--desp5 {
+    margin-top: 69%;
+}
+
+.travel--desp:hover {
+    margin-top: 0;
+    background-color: rgba(75, 38, 38, 0.555);
+}
+
+/***** why book *****/
+.get-started {
+    background-image: url(img/img-5/why-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+}
+
+.get-started__card {
+    background-color: rgba(0, 0, 0, 0.705);
+    align-content: center;
+    min-height: 50vh;
+    color: white;
+    margin: auto;
+}
+
+.get-started__card:hover {
+    box-shadow: 2px 2px 5px black;
+}
+
+/***** all options *****/
+    
+
+.all-options img{
+    width: 130px;
+    
+    box-shadow: 2px 2px 5px black;
+}
+
+.card{
+ padding: 10px;
+}
+.reviews button:hover{
+    box-shadow: 2px 2px 5px black;
+}
+
+/***** book now *****/
+
+.book-now {
+    background-color: rgb(81, 195, 81);
+}
+
+/***** footer *****/
+
+.footer {
+    background-image: url(img/img-1/ft-img.jpeg);
+    background-size: cover;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-box__col {
+    width: 20%;
+    padding: 10px 10px;
+}
+
+.footer-box__col p {
+    color: white;
+    padding: 5px 0;
+}
+
+.footer-box__col p:hover {
+    color: black;
+    text-shadow: 2px 4px 5px white;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.footer-box__col h5 a {
+    color: red;
+    text-decoration: none;
+}
+
+.footer-box__col h5:hover {
+    transform: .5s;
+    text-shadow: 2px 2px 5px black;
+}
+
+
+
+@media only screen and (max-width:567px) {
+    #header-img{
+        min-height: 50vh;
+    }
+    .h-text {
+        font-size: 20px;
+    }
+    .tours {
+        width: 80%;
+        margin: auto;
+    }
+    .trips-box {
+        width: 75%;
+        margin: auto;
+    }
+    .our-tour{
+        min-height: 150vh;
+    }
+    .our-tour__card {
+        flex-direction: column;
+        min-height: 90vh;
+    }
+    .our-tour__desp {
+        width: 100%;
+        padding: 3px;
+    }
+    .our-tour__vido {
+        width: 100%;
+        height: 200px;
+    }
+    .our-tour__vido iframe {
+        margin-left: 0px;
+        z-index: 0;
+        margin-top: 20px;
+        width: 100%;
+        height: 400px;
+    }
+    .travel--1, .travel--2, .travel--3, .travel--4, .travel--5, .travel--6, .travel--7, .travel--8 {
+        width: 100%;
+        height: 400px;
+    }
+    .travel--desp1, .travel--desp2, .travel--desp3, .travel--desp4, .travel--desp5, .travel--desp6, .travel--desp7, .travel--desp8{
+        margin-top: 35%;
+    }
+    .desp-45 {
+        padding-top: 40%;
+    }
+    .footer-box {
+        flex-direction: column;
+    }
+    .footer-box__col {
+        width: 100%;
+        padding: 10px 10px;
+    }
+   
+}
