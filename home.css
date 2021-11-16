@@ -275,17 +275,9 @@ body {
     text-shadow: 2px 2px 5px black;
 }
 
-@media only screen and (max-width:450px) {
-    
-    
-    .our-tour__vido iframe {
-       
-        width: 280px;
-        height: 300px;
-        text-align: left;
+
         
-    }
-}
+    
 
 @media only screen and (max-width:790px) {
     #header-img{
