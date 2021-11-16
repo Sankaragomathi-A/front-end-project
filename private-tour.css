@@ -196,6 +196,9 @@ body {
 }
 
 @media only screen and (max-width:790px) {
+    .h-text{
+        font-size: 20px;
+    }
     .our-guide__img img {
         width: 110px;
         height: 110px;
