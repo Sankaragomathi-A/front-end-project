@@ -277,6 +277,12 @@ body {
 
 
 @media only screen and (max-width:790px) {
+    #header-img{
+        min-height: 50vh;
+    }
+    .h-text {
+        font-size: 20px;
+    }
     .tours {
         width: 80%;
         margin: auto;
