@@ -116,16 +116,16 @@ body {
 }
 
 
-@media only screen and (max-width:567px) {
+@media only screen and (max-width:500px) {
     .collapse-right__i {
         display: block;
-        margin-left: 210px;
+        margin-left: 160px;
         padding: 8px 0;
         text-align: center;
     }
     .collapse-left__heading {
         padding: 21px;
-        text-align: center;
+        text-align: right;
     }
     .carousel-item img {
         width: 100vh;
