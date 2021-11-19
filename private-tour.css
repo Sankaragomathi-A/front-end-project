@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: 'Noto Serif', serif;
+}
+
+/***** image container *****/
+
+#header-img {
+    background-image: url(img/img-2/hd-img.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 60vh;
+}
+
+.h-text {
+    text-shadow: 2px 2px 5px black;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 40px;
+}
+
+/***** get-started *****/
+
+.get-started {
+    background-image: url(img/img-2/started.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.get-started__card {
+    background-color: rgba(0, 0, 0, 0.705);
+    align-content: center;
+    min-height: 70vh;
+    color: white;
+    margin: auto;
+}
+
+.get-started__card:hover {
+    box-shadow: 2px 2px 5px black;
+}
+
+.get-started__card h3 a {
+    text-decoration: none;
+}
+.get-started__btn{
+    background-color: rgb(146, 7, 7);
+    box-shadow: 2px 2px 1px rgb(38, 36, 36);
+    color: white;
+}
+
+.get-started__btn:hover {
+    background-color: deeppink;
+    box-shadow: 2px 2px 1px rgb(38, 36, 36);
+    color: white;
+}
+form .col-12 {
+    margin: 10px 0;
+}
+
+.textarea input {
+    height: 150px;
+}
+
+/***** Section *****/
+
+.our-guide {
+    background-color: #f8eeee;
+}
+
+.our-guide__img img {
+    width: 170px;
+    height: 160px;
+}
+
+/***** inspired *****/
+
+.inspired--1 {
+    background-image: url(img/img-2/in-1.jpeg);
+    background-size: cover;
+    width: 40%;
+    height: 300px;
+    border: 2px solid white;
+    overflow: hidden;
+}
+
+.inspired--2 {
+    background-image: url(img/img-2/in-2.jpeg);
+    background-size: cover;
+    width: 30%;
+    height: 300px;
+    border: 2px solid white;
+    overflow: hidden;
+}
+
+.inspired--3 {
+    background-image: url(img/img-2/in-3.jpeg);
+    background-size: cover;
+    width: 30%;
+    height: 300px;
+    border: 2px solid white;
+    overflow: hidden;
+}
+
+.inspired--4 {
+    background-image: url(img/img-2/in-4.jpg);
+    background-size: cover;
+    width: 30%;
+    height: 300px;
+    border: 2px solid white;
+    overflow: hidden;
+}
+
+.inspired--5 {
+    background-image: url(img/img-2/in-5.jpg);
+    background-size: cover;
+    width: 30%;
+    height: 300px;
+    border: 2px solid white;
+    overflow: hidden;
+}
+
+.inspired--6 {
+    background-image: url(img/img-2/in-6.jpg);
+    background-size: cover;
+    width: 40%;
+    height: 300px;
+    border: 2px solid white;
+    overflow: hidden;
+}
+
+.inspired--desp {
+    width: 100%;
+    padding: 25% 15px;
+    transition: .5s;
+}
+
+.inspired--desp1 {
+    margin-top: 32%;
+}
+
+.inspired--desp2 {
+    margin-top: 43%;
+}
+
+.inspired--desp3 {
+    margin-top: 52%;
+}
+
+.inspired--desp4 {
+    margin-top: 51%;
+}
+
+.inspired--desp5 {
+    margin-top: 51%;
+}
+
+.inspired--desp6 {
+    margin-top: 32%;
+}
+
+.inspired--desp:hover {
+    margin-top: 0%;
+    background-color: rgba(0, 0, 0, 0.555);
+}
+
+/***** book now *****/
+
+.book-now {
+    background-color: rgb(81, 195, 81);
+}
+
+/***** footer *****/
+
+.footer {
+    background-image: url(img/img-1/ft-img.jpeg);
+    background-size: cover;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-box__col {
+    width: 20%;
+    padding: 10px 10px;
+}
+
+.footer-box__col p {
+    color: white;
+    padding: 5px 0;
+}
+
+.footer-box__col p:hover {
+    color: black;
+    text-shadow: 2px 4px 5px white;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.footer-box__col h5 a {
+    color: red;
+    text-decoration: none;
+}
+
+.footer-box__col h5:hover {
+    transform: .5s;
+    text-shadow: 2px 2px 5px black;
+}
+
+@media (min-width: 768px ) {
+    .modal-dialog {
+        max-width: 80%;
+        margin: 6% auto;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #header-img {
+        min-height: 40vh;
+    }
+
+    .h-text {
+        font-size: 30px;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .our-guide__img img {
+        width: 110px;
+        height: 110px;
+    }
+    .modal-dialog {
+        max-width: 80%;
+        margin: 10% auto;
+    }
+    
+    .inspired--1, .inspired--2, .inspired--3, .inspired--4, .inspired--5, .inspired--6 {
+        width: 100%;
+    }
+
+    .inspired--desp1, .inspired--desp2, .inspired--desp3, .inspired--desp4, .inspired--desp5, .inspired--desp6 {
+        margin-top: 40%;
+    }
+
+    .footer-box {
+        flex-direction: column;
+    }
+
+    .footer-box__col {
+        width: 100%;
+        padding: 10px 10px;
+    }
+}
